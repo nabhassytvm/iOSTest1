@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    IBOutlet UITextView* m_ctrlTxtComments;
+}
+-(IBAction) btnClicked:(id)sender;
 @end
